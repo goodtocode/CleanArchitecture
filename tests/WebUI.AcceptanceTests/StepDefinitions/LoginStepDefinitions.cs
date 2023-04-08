@@ -1,4 +1,4 @@
-namespace CleanArchitecture.WebUI.AcceptanceTests.StepDefinitions;
+namespace CleanArchitecture.WebApi.AcceptanceTests.StepDefinitions;
 
 [Binding]
 public sealed class LoginStepDefinitions

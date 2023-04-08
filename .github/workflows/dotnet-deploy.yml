@@ -34,7 +34,7 @@ jobs:
       env:
         ConnectionStrings__DefaultConnection: Server=.;Database=CleanArchitectureDb-Test;User=sa;Password=Your_password123;MultipleActiveResultSets=true;
     - name: Publish
-      run: dotnet publish src/WebUI/WebUI.csproj --configuration Release --output website
+      run: dotnet publish src/WebApi/WebApi.csproj --configuration Release --output website
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.2
       with:

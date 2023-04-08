@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace CleanArchitecture.WebUI.AcceptanceTests.Features
+namespace CleanArchitecture.WebApi.AcceptanceTests.Features
 {
     using TechTalk.SpecFlow;
     using System;
